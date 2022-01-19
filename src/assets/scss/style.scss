@@ -1,0 +1,27 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.main-menu.menu-light .navigation>li ul .active {
+    background: linear-gradient(118deg, #0071ce, #6ba7ef);
+}
+
+.login-signup-btn {
+    background: #0040ffff !important;
+}
+
+.main-menu .navbar-header .navbar-brand .brand-text {
+    padding-left: 0rem;
+    animation: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s normal forwards 1 fadein;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.hide-file-input {
+    display: none;
+}
